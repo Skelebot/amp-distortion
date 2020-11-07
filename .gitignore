@@ -1,0 +1,24 @@
+# export files for BOM
+*.xml
+*.tsv
+*.csv
+
+# backup files
+*.bak
+*.bkp
+
+# temporary files
+*.000
+*.kicad_pcb-bak
+*.sch-bak
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+
+# netlists
+*.net
+
+# autorouter files
+*.dsn
+*.ses
