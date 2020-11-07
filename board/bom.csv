@@ -1,0 +1,23 @@
+,,,
+Ref,Quantity,Value,Description
+C1,1,1uF,"SMD Capacitor, package 0603 (1608 metric)"
+"C2, C4",2,47pF,"SMD Capacitor, package 0603 (1608 metric)"
+C3,1,100nF,"SMD Capacitor, package 0603 (1608 metric)"
+C5,1,10uF,"SMD Capacitor, package 0603 (1608 metric)"
+D1,1,minimum 30V,12.70mm THT Schottky diode
+"D2, D3",2,Vf = 0.1V to 0.5V,THT germanium diode
+J1,1,-,6.35mm THT audio jack (stereo or mono)
+J2,1,-,DC Barrel jack
+J3,1,-,6.35mm THT audio jack (stereo or mono)
+R1,1,22M,THT resistor
+R2,1,2.7K,"SMD resistor, package 0805 (2012 metric)"
+"R3, R4",2,100K,"SMD resistor, package 0805 (2012 metric)"
+R5,1,10M,THT resistor
+R6,1,1K,"SMD resistor, package 0805 (2012 metric)"
+R7,1,150K,"SMD resistor, package 0805 (2012 metric)"
+R8,1,470,"SMD resistor, package 0805 (2012 metric)"
+RV1,1,500K,Reverse-logarithmic 500K potentiometer (C500K)
+RV2,1,10K,Linear 10K potentiometer (B10K)
+SW1,1,-,SPST ON-ON switch
+U1,1,TL071,"TL071 op-amp, SO8 Package"
+SW2(not on schematic),1,-,DPDT ON-ON foot switch
