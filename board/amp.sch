@@ -527,28 +527,17 @@ F 3 "~" H 2900 5060 50  0001 C CNN
 	1    2850 5100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3150 5000 3550 5000
 $Comp
 L power:GND #PWR0101
 U 1 1 5FA73AA2
-P 3300 5300
-F 0 "#PWR0101" H 3300 5050 50  0001 C CNN
-F 1 "GND" H 3305 5127 50  0000 C CNN
-F 2 "" H 3300 5300 50  0001 C CNN
-F 3 "" H 3300 5300 50  0001 C CNN
-	1    3300 5300
-	1    0    0    -1  
+P 3300 5000
+F 0 "#PWR0101" H 3300 4750 50  0001 C CNN
+F 1 "GND" H 3305 4827 50  0000 C CNN
+F 2 "" H 3300 5000 50  0001 C CNN
+F 3 "" H 3300 5000 50  0001 C CNN
+	1    3300 5000
+	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	3150 5100 3300 5100
-Wire Wire Line
-	3300 5100 3300 5200
-Wire Wire Line
-	3150 5200 3300 5200
-Connection ~ 3300 5200
-Wire Wire Line
-	3300 5200 3300 5300
 $Comp
 L power:GND #PWR03
 U 1 1 5FAB7567
@@ -763,4 +752,19 @@ Wire Notes Line
 	8050 3750 8050 3050
 Text Notes 8050 3000 0    50   ~ 0
 Output jack
+Wire Wire Line
+	3150 5200 3250 5200
+Wire Wire Line
+	3550 5200 3550 5000
+Text Notes 2650 5350 0    50   ~ 0
+Center-negative
+Wire Wire Line
+	3150 5000 3300 5000
+Wire Wire Line
+	3150 5100 3250 5100
+Wire Wire Line
+	3250 5100 3250 5200
+Connection ~ 3250 5200
+Wire Wire Line
+	3250 5200 3550 5200
 $EndSCHEMATC
